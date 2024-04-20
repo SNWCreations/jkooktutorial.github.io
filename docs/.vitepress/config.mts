@@ -12,7 +12,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/jkook.svg',
     editLink: {
-      pattern: 'https://github.com/NatholDallas/natholdallas.github.io/edit/master/docs/src/:path',
+      pattern: 'https://github.com/SNWCreations/jkooktutorial.github.io/edit/main/docs/src/:path',
       text: '在 Github 上编辑此页面'
     },
     search: {
