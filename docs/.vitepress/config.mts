@@ -4,6 +4,7 @@ import { sidebar } from './common/sidebar'
 import { socialLinks } from './common/socialLinks'
 
 export default defineConfig({
+  base: '/jkooktutorial.github.io/',
   lang: 'zh-CN',
   title: 'JKookTutorial',
   description: 'The JKook Plugin Development Tutorial for beginners, by the author of JKook framework.',
