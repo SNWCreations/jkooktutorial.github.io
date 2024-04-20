@@ -4,7 +4,7 @@
 
 希望上一章的代码在你的设备上已经正常运行了。
 
-如果说，有人对你的 Hello World 插件产生了兴趣，但是TA想让你的插件输出点不一样的东西，如果要修改代码，岂不是每需要另一种话时就需要修改一次代码？太麻烦了！
+如果说，有人对你的 Hello World 插件产生了兴趣，但是 TA 想让你的插件输出点不一样的东西，如果要修改代码，岂不是每需要另一种话时就需要修改一次代码？太麻烦了！
 
 而通过本章的学习，你将知道如何用配置文件使你的插件变得可配置。
 
@@ -14,17 +14,19 @@ JKook 使用 YAML (1.1 版) 作为 `plugin.yml` 以及配置文件的格式。
 
 YAML 是以键值对的形式存储数据的。这点和 JSON 很像，也很像 `java.util.Map` 。
 
-如 `foo: bar` 中，foo 是键，bar是值。
+如 `foo: bar` 中，foo 是键，bar 是值。
 
 以下为一个实例 (注释会解释这些值的类型):
+
 ```yml
 a: 1 # int
 b: 1.1 # double, 也可以是 float
 c: # ConfigurationSection
   d: 1.1.1 # String (因为不是一个有效数字), 此配置项的路径是 c.d
 e: true # boolean
-f: ["a", "b", "c"] # List<String>
+f: ['a', 'b', 'c'] # List<String>
 ```
+
 请注意: YAML 对缩进要求很严格。
 
 YAML 的完整语法这里不再讲述。
@@ -89,6 +91,6 @@ YAML 的完整语法这里不再讲述。
 
 本章我们讲解了:
 
-* YAML 的基本语法
-* ConfigurationSection 中的各种方法
-* 加载与保存配置数据
+- YAML 的基本语法
+- ConfigurationSection 中的各种方法
+- 加载与保存配置数据

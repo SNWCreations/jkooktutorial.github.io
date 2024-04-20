@@ -8,12 +8,6 @@ export default defineConfig({
   title: 'JKookTutorial',
   description: 'The JKook Plugin Development Tutorial for beginners, by the author of JKook framework.',
   srcDir: 'src',
-  locales: {
-    root: {
-      label: '中文',
-      lang: 'zh'
-    }
-  },
   themeConfig: {
     logo: '/jkook.svg',
     editLink: {
@@ -26,5 +20,6 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
     socialLinks: socialLinks
-  }
+  },
+  ignoreDeadLinks: true
 })
